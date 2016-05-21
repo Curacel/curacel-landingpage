@@ -688,11 +688,12 @@ fieldset[disabled] .btn {
 /*     5.1. Main header styles & layout-1 styles     */
 
 #header {
-  background: #2854b4;
+  background-image: url('../img/curacel-bg.jpg');
   height: 100vh;
-  max-height: 890px;
+  background-size: cover;
+  /*max-height: 890px;
   min-height: 690px;
-  margin-bottom: 50px;
+  margin-bottom: 50px;*/
 }
 #header .container {
   height: 100%;
@@ -753,7 +754,14 @@ fieldset[disabled] .btn {
   display: none;
 }
 #header .header-txt-small {
-  font-size: .6em;
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+.main-text{
+  text-transform: Capitalize;
+  font-weight: 400; line-height: 0.40em;
+  margin-top:100px;
 }
 #header .header-txt-color {
   color: #f46352;
@@ -805,7 +813,7 @@ fieldset[disabled] .btn {
   font-size: 7.5em !important;
 }
 .header-centred .header-txt-small {
-  font-size: .5em !important;
+  /*font-size: .5em !important;*/
 }
 .header-centred .header-margin-more {
   height: 25% !important;
@@ -908,6 +916,7 @@ fieldset[disabled] .btn {
   padding-top: 20px;
   padding-bottom: 10px;
   box-shadow: inset 0px 0px 0px 1px transparent;
+  margin-top:10px;
 }
 #features .feature .elegant {
   color: #333333;
